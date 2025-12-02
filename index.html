@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bản đồ số - Phường Mỹ Phong</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-around align-items-center">
+          <div class="col header-left d-flex">
+            <div class="header-logo">
+              <img src="./images/logo.png" alt="Logo" />
+            </div>
+            <div class="header-title">
+              <h1>Bản đồ số – Phường Mỹ Phong</h1>
+              <span>ĐOÀN KẾT - DÂN CHỦ - KỶ CƯƠNG - ĐỘT PHÁ - PHÁT TRIỂN</span>
+            </div>
+          </div>
+        </div>
+        <div class="row"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="search-box mb-4">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <div class="col">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></span>
+                <input
+                  type="text"
+                  id="search"
+                  class="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-default"
+                  placeholder="Tìm kiếm"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <select
+                id="filter"
+                class="form-select"
+                aria-label="Default select example"
+              >
+                <option value="all" selected>Tất cả</option>
+                <option value="Cơ quan">Cơ quan</option>
+                <option value="Hành chính công">Hành chính công</option>
+                <option value="Công an">Công an</option>
+                <option value="Du lịch">Du lịch</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-lists">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2" id="cards">
+            <!-- <div class="col">
+              <div class="card">
+                <img
+                  src="https://scontent.iocvnpt.com/resources/portal/Images/DTP/dtblieu/lang_hoa/24d3e752a8046b5a3215_805332015.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <span>UBND Phường Mỹ Phong</span>
+                    <span class="badged">Du lịch</span>
+                  </h5>
+                  <p class="card-text">
+                    <span class="card-address"
+                      ><i class="fa-solid fa-location-dot"></i> 530A Đường
+                      Nguyễn Sinh Sắc, Phường Sa Đéc, Đồng Tháp</span
+                    >
+                    <span class="card-location"
+                      ><i class="fa-solid fa-location-crosshairs"></i> Tọa độ:
+                      10.291089, 105.756187</span
+                    >
+                    <span class="card-location"
+                      >Cơ quan hành chính địa phương</span
+                    >
+                  </p>
+                  <a href="#" class="btn btn-primary">Mở Google Maps</a>
+                  <a
+                    href="#"
+                    class="btn btn-secondary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Chi tiết</a
+                  >
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Modal title
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h5 class="modal-subtitle mb-4">Dia chi</h5>
+              <div class="modal-x d-flex">
+                <div class="modal-image">
+                  <img class="modal-img" src="?" alt="" />
+                </div>
+                <div class="modal-desc"></div>
+              </div>
+              <a class="btn-grad btn-grad-mo mylink" target="_blank" href="?"
+                >Mở Google Maps</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="footer text-center">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          © 2025 Được tạo bởi Đoàn Văn Vũ Luân - VP HĐND-UBND Phường Mỹ Phong
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

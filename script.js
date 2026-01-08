@@ -9,7 +9,7 @@ const locations = [
        "./images/Dang uy.jpg",
     type: "Đảng ủy ",
     url: "https://maps.app.goo.gl/eQv2huzNtctTpCzK6",
-    desc: "Điện thoại: 0277.3861.602. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 02733.850.145",
   },
   {
     name: "Hội đồng nhân dân - Ủy ban nhân dân Phường Mỹ Phong",
@@ -21,11 +21,11 @@ const locations = [
       "./images/ubnn.jpg",
     type: "Cơ quan",
     url: "https://maps.app.goo.gl/WzXosr4N4YmbBBmm9",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 02733.950.047",
   },
   {
     name: "Ủy ban Mặt trận Tổ quốc và Tổ chức Chính trị xã hội",
-    address: "12 Âu Dương Lân, Phường Mỹ Phong, tỉnh Đồng Tháp",
+    address: "Số 88 tỉnh lộ 879B Khu phố Mỹ Lợi, Phường Mỹ Phong, tỉnh Đồng Tháp",
     subname: "Cơ quan hành chính địa phương",
     lat: 10.3685178,
     lng: 106.3875891,
@@ -33,7 +33,7 @@ const locations = [
       "./images/MTTQ.jpg",
     type: "Cơ quan",
     url: "https://maps.app.goo.gl/3gLa6smcYqMSLJtDA",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 02733.889.645",
   },
   {
     name: "Công An Phường Mỹ Phong",
@@ -45,7 +45,7 @@ const locations = [
          "./images/CA.jpg",
     type: "Công an",
     url: "https://maps.app.goo.gl/J2LfB6pYrDzTrBHx6",
-    desc: "Điện thoại: 0277.3861.602. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 02733.889.981",
   },
   {
     name: "Ban Chỉ huy Quân sự Phường Mỹ Phong",
@@ -57,7 +57,7 @@ const locations = [
        "./images/Quansu.jpg",
     type: "Quân sự ",
     url: "https://maps.app.goo.gl/eQv2huzNtctTpCzK6",
-    desc: "Điện thoại: 0277.3861.602. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 027",
   },
   {
     name: "Phòng Kinh tế - Hạ tầng - Đô thị Phường Mỹ Phong",
@@ -68,8 +68,8 @@ const locations = [
     image:
       "./images/P.KT.jpg",
   type: "Cơ quan",
-    url: "https://maps.app.goo.gl/J2LfB6pYrDzTrBHx6",
-    desc: "Phòng Kinh tế, Hạ tầng và Đô thị là cơ quan chuyên môn thuộc Ủy ban nhân dân phường; có chức năng tham mưu, giúp Ủy ban nhân dân cấp xã thực hiện quản lý nhà nước về các lĩnh vực tài chính - kế hoạch, xây dựng, công thương, nông nghiệp và môi trường.",
+    url: "https://maps.app.goo.gl/WzXosr4N4YmbBBmm9",
+    desc: "Điện thoại: 02733.948.686",
   },
 {
     name: "Phòng Văn hoá - Xã hội Phường Mỹ Phong",
@@ -81,7 +81,7 @@ const locations = [
       "./images/P.VHXH.jpg",
     type: "Cơ quan",
     url: "https://maps.app.goo.gl/WzXosr4N4YmbBBmm9",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 02733.844.568",
   },
   {
     name: "Trung tâm Phục vụ Hành chính công Phường Mỹ Phong",
@@ -92,8 +92,8 @@ const locations = [
     image:
      "./images/HCC.jpg",
     type: "Cơ quan",
-    url: "https://maps.app.goo.gl/J2LfB6pYrDzTrBHx6",
-    desc: "Điện thoại: 0277.3861.602. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    url: "https://maps.app.goo.gl/WzXosr4N4YmbBBmm9",
+    desc: "Điện thoại: 0277.826.686",
   },
   {
     name: "Trung tâm Cung ứng Dịch vục công Phường Mỹ Phong",
@@ -104,8 +104,8 @@ const locations = [
     image:
       "./images/CƯDVC.jpg",
     type: "Cơ quan",
-    url: "https://maps.app.goo.gl/J2LfB6pYrDzTrBHx6",
-    desc: "Điện thoại: 0277.3861.602. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    url: "https://maps.app.goo.gl/WzXosr4N4YmbBBmm9",
+    desc: "",
   },
    {
     name: "Trường Tiểu học Âu Dương Lân",
@@ -117,7 +117,7 @@ const locations = [
       "./images/ADL.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/yRUJC44FaNV8bxxx8",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 02733.850.133",
   },
   {
     name: "Trường Tiểu học Tân Tỉnh",
@@ -129,7 +129,7 @@ const locations = [
       "./images/TanTinh.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/qhLnPWEP8TGaUeRR6",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 02733.850.135",
   },
   {
     name: "Trường Tiểu học - Trung học cơ sở Lê Văn Nghề",
@@ -153,7 +153,7 @@ const locations = [
       "./images/TanMyChanh.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/QAAWWn87SmjdvkeH9",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại:02733.850.134",
   },
   {
     name: "Trường Mầm non Rạng Đông",
@@ -201,7 +201,7 @@ const locations = [
       "./images/MyPhong.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/Qy6GdZ21n8a4ti1n9",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại:02733.989.026",
   },
   {
     name: "Trường Tiểu học Thạnh Trị",
@@ -237,12 +237,23 @@ const locations = [
       "./images/HoaMai.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/gWEuZMEW4tGCBwiD9",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại: 02733.889.090",
+  },{
+    name: "chùa Vĩnh Tràng",
+    address: "Khu phố Mỹ Lợi, Phường Mỹ Phong, tỉnh Đồng Tháp",
+    subname: "Đơn vị sự nghiệp",
+    lat: 10.369129,
+    lng: 106.3814591,
+    image:
+      "./images/HoaMai.jpg",
+    type: "Du lịch",
+    url: "https://maps.app.goo.gl/gWEuZMEW4tGCBwiD9",
+    desc: "Điện thoại: 02733.889.090",
   },
 
 ];
 
-const filterSelect = document.getElementById("filter");
+const filterSelect = document.getElementById("filter")
 const searchInput = document.getElementById("search");
 const cards = document.getElementById("cards");
 

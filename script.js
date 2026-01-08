@@ -7,7 +7,7 @@ const locations = [
     lng: 106.3966994,
     image:
        "./images/Dang uy.jpg",
-    type: "Đảng ủy ",
+    type: "Đảng ủy",
     url: "https://maps.app.goo.gl/eQv2huzNtctTpCzK6",
     desc: "Điện thoại: 02733.850.145",
   },
@@ -55,9 +55,9 @@ const locations = [
     lng: 106.3966994,
     image:
        "./images/Quansu.jpg",
-    type: "Quân sự ",
+    type: "Quân sự",
     url: "https://maps.app.goo.gl/eQv2huzNtctTpCzK6",
-    desc: "Điện thoại: 027",
+    desc: "Điện thoại:02776.561.018",
   },
   {
     name: "Phòng Kinh tế - Hạ tầng - Đô thị Phường Mỹ Phong",
@@ -141,7 +141,7 @@ const locations = [
       "./images/LeVanNghe.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/dfWeu6ppH4VsThUj9",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại:02733.989.291",
   },
   {
     name: "Trường Trung học cơ sở Tân Mỹ Chánh",
@@ -165,7 +165,7 @@ const locations = [
       "./images/RangDong.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/YC1jr8iNie6Uf2Cg9",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại:02733.950.259",
   },
   {
     name: "Trường Mầm non Mạ Xanh cơ sở 2",
@@ -189,7 +189,7 @@ const locations = [
       "./images/Maxanh1.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/V6nnhQp6ys7xPoQp9",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại:Cơ sở 1:02733.850.957;       Cơ sở 2: 02733.958.585",
   },
   {
     name: "Trường Tiểu học Mỹ Phong",
@@ -213,7 +213,7 @@ const locations = [
       "./images/ThanhTri.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/utizN6AoTENuMsLR6",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại:02733.989.345",
   },
   {
     name: "Trường Mầm non Tịnh Nghiêm",
@@ -225,7 +225,7 @@ const locations = [
       "./images/TinhNghiem.jpg",
     type: "Trường học",
     url: "https://maps.app.goo.gl/WqQS88AARLwxnGER8",
-    desc: "Điện thoại: 02733. Đơn vị này cũng là đầu mối tiếp nhận, xử lý các thủ tục hành chính của người dân và doanh nghiệp trên địa bàn phường.",
+    desc: "Điện thoại:02733.884.833",
   },
   {
     name: "Trường Mầm non Hoa Mai",
@@ -239,16 +239,16 @@ const locations = [
     url: "https://maps.app.goo.gl/gWEuZMEW4tGCBwiD9",
     desc: "Điện thoại: 02733.889.090",
   },{
-    name: "chùa Vĩnh Tràng",
-    address: "Khu phố Mỹ Lợi, Phường Mỹ Phong, tỉnh Đồng Tháp",
-    subname: "Đơn vị sự nghiệp",
-    lat: 10.369129,
-    lng: 106.3814591,
+    name: "Chùa Vĩnh Tràng",
+    address: "Khu phố Mỹ An, Phường Mỹ Phong, tỉnh Đồng Tháp",
+    subname: "Du lịch tâm linh",
+    lat: 10.3625503,
+    lng: 106.3739389,
     image:
-      "./images/HoaMai.jpg",
+      "./images/vinh trang.jpg",
     type: "Du lịch",
-    url: "https://maps.app.goo.gl/gWEuZMEW4tGCBwiD9",
-    desc: "Điện thoại: 02733.889.090",
+    url: "https://maps.app.goo.gl/ck3ptWyao6CwStbR9",
+    desc: "Điện thoại:02733.873.427",
   },
 
 ];
@@ -302,7 +302,7 @@ function renders() {
                 </span>
                 <span class="card-location">${loc.subname}</span>
             </p>
-                <a href="${loc.url}" class="btn-grad btn-grad-prima">Mở Google Maps</a>
+                <a href="${loc.url}" target="_blank" class="btn-grad btn-grad-prima">Mở Google Maps</a>
                 <a href="#" class="btn-grad btn-grad-seco" id="test" data-bs-toggle="modal" data-bs-target="#exampleModal"
                     data-title="${loc.name}"
                     data-img="${loc.image}"

@@ -336,3 +336,46 @@ body {
     #16a085 100%
   );
 }
+.footer {
+  position: relative;
+}
+.stat-box {
+  color: #fff;
+  width: 100px;
+  font-size: 10px;
+  border: 1px solid #424242;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background: #2b3845;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  z-index: 99;
+}
+.stat-header {
+  background: #1e90ff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.counter {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px 0;
+  letter-spacing: 5px;
+}
+.stat-list {
+  text-align: left;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.stat-list div {
+  margin: 4px 0;
+}
+.online {
+  margin-top: 10px;
+  font-weight: bold;
+}
